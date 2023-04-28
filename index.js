@@ -20,7 +20,7 @@ function guidesExtention() {
     .option("-pm, --pkg <pkg>", "Package manager to be used")
     .parse(process.argv);
 
-  const name = program.opts().name || "guides-extention";
+  const name = program.opts().name || "guides-extension";
   const pkg = program.opts().pkg || "npm";
 
   const repoUrl = "https://github.com/jonschlinkert/is-even";
@@ -37,7 +37,7 @@ function guidesExtention() {
         return;
       }
       console.log(
-        `Packages installed. Take a look at the Readme for furthur instrcutions.\n Run npm build to generate editor extention override file`
+        `Packages installed. Take a look at the Readme for furthur instrcutions.\n Run npm build to generate editor extension override file`
       );
     });
   });

@@ -1,7 +1,7 @@
 {
-  "name": "create-guides-extention",
+  "name": "create-guides-extension",
   "version": "1.0.0",
-  "description": "Bootstraps a application that will generate a tcx override for xmleditor components",
+  "description": "Bootstraps an application that will generate a javascript override for Adobe AEM Guides components",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "create-xmleditor-extention": "./index.js"
+    "create-xmleditor-extension": "./index.js"
   },
   "author": "ishanks@adobe.com",
   "license": "MIT",

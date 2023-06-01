@@ -23,7 +23,7 @@ function guidesExtention() {
   const name = program.opts().name || "guides-extension";
   const pkg = program.opts().pkg || "npm";
 
-  const repoUrl = "https://github.com/jonschlinkert/is-even";
+  const repoUrl = "https://github.com/adobe/guides-extention";
 
   exec(`git clone ${repoUrl} ${name}`, (error, stdout, stderr) => {
     if (error) {

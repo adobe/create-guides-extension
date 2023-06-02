@@ -30,7 +30,7 @@ function guidesExtention() {
       console.error(`Error cloning repository: ${error.message}`);
       return;
     }
-    console.log(`Template cloned to ${name}`);
+    console.log(`Guides template cloned to ${name}`);
     exec(`cd ${name} && ${pkg} i`, (error) => {
       if (error) {
         console.log(`Error installing packages: ${error}`);

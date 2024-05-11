@@ -6,6 +6,10 @@
   "directories": {
     "test": "test"
   },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/adobe/create-guides-extension.git"
+},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },

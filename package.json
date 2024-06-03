@@ -1,6 +1,6 @@
 {
   "name": "@adobe/create-guides-extension",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Bootstraps an application that will generate a javascript override for Adobe AEM Guides components",
   "main": "index.js",
   "directories": {
@@ -19,6 +19,7 @@
   "author": "ishanks@adobe.com",
   "license": "MIT",
   "dependencies": {
+    "@babel/runtime-corejs3": "^7.24.6",
     "commander": "^10.0.0"
   }
 }
